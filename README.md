@@ -1,4 +1,4 @@
-Email Relay with PHP
+Double Opt-In Email Registration With PHP
 =============================
 This code shows how to perform an Email-based double-opt-in registration 
 using PHP and MySQL.
