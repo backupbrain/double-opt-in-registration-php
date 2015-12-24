@@ -8,7 +8,7 @@ class EmailRegistration {
 	public $mysql;
 	public $email;
 	public $confirmationCode;
-	public $confirmed
+	public $confirmed;
 	public $unsubscribed;
 	
 	public function __construct() {
