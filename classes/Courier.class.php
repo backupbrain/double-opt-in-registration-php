@@ -30,7 +30,7 @@ class Courier {
     /**
 	 * Set the Email object to draw the information from
 	 *
-	 * @parameter $email the email to send
+	 * @parameter $Email the email to send
 	 */
 	public function send( $Email=null ) {
 		// let's create the headers to show where the email 
@@ -64,7 +64,7 @@ class Courier {
 			
 		// since this is a mime/multipart message, we need to re-iterate
 		// the message contents in order for mime-aware clients to read it
-		if ($email->message_html) {
+		if ($Email->message_html) {
 			$message .= "Content-Type: text/html; charset=\"iso-8859-1\"\r\n";
 			$message .= "Content-Transfer-Encoding: 7bit\r\n";
 			$message .= "\r\n";
